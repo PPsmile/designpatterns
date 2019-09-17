@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06652f89-b3d6-4cda-8621-85861d083dd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/DuckSimulator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/AbstractDuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/CountingDuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/DuckCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/DuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/DuckFactoryCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/DuckFactoryCounterEcho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/DuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/Goose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/GooseAdaptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/Pigeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/PigeonAdaptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/QuackCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/QuackEcho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/Quackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/RubberDuck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,29 +30,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/QuackCounter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding>
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/DuckSimulator2.java">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/DuckFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="242">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,12 +81,20 @@
         <option value="$PROJECT_DIR$/src/DecoratorPattern/DuckSimulator1.java" />
         <option value="$PROJECT_DIR$/src/DecoratorPattern/QuackCounter.java" />
         <option value="$PROJECT_DIR$/src/DecoratorPattern/DuckSimulator2.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/DuckSimulator3.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactoryPattern/QuackEcho.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactoryPattern/DuckFactory.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactoryPattern/DuckFactoryCounter.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactoryPattern/DuckFactoryCounterEcho.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactoryPattern/CountingDuckFactory.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactoryPattern/DuckSimulator.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactoryPattern/AbstractDuckFactory.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="723" />
-    <option name="y" value="123" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -109,7 +124,7 @@
               <item name="designpatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractFactoryPattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,7 +137,11 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="AbstractFactoryPattern" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User-HP\Desktop\p\designpatterns\src\AbstractFactoryPattern" />
       <recent name="C:\Users\User-HP\Desktop\p\designpatterns\src\DecoratorPattern" />
     </key>
   </component>
@@ -217,13 +236,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2322239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3797054" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20294599" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,13 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/DuckSimulator1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/PigeonAdaptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -421,6 +433,156 @@
           <folding>
             <element signature="e#895#896#0" expanded="true" />
             <element signature="e#923#924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/DuckSimulator1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/DuckSimulator3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="e#2066#2067#0" expanded="true" />
+            <element signature="e#2094#2095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/GooseAdaptor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/RubberDuck.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/RedheadDuck.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/Pigeon.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/QuackEcho.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/DuckSimulator3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/Quackable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/PigeonAdaptor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/QuackCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/CountingDuckFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/Goose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/AbstractDuckFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/DuckSimulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/DuckFactoryCounterEcho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-column="31" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/DuckFactoryCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactoryPattern/DuckFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
           </folding>
         </state>
       </provider>
